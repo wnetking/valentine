@@ -1,0 +1,13 @@
+.btn-yes:hover {
+  transform: scale(3);
+}
+
+.btn-yes {
+  transition: transform 0.25s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-yes:hover {
+    transform: scale(1.05);
+  }
+}
